@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "截圖 2020-10-03 下午2.01.29.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "截圖 2020-10-03 下午2.01.29@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "截圖 2020-10-03 下午2.01.29@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

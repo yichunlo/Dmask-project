@@ -1,23 +1,19 @@
 //
-//  ContentView.swift
-//  DMask_replace
+//  HomeView.swift
+//  Dmask_replace
 //
-//  Created by 羅義鈞 on 2020/10/9.
+//  Created by 羅義鈞 on 2020/10/10.
 //
 
 import SwiftUI
 
-
-struct ContentView: View {
-    
-    //@State private var selection: String? = nil
-    
+struct HomeView: View {
     var body: some View {
         VStack{
-            HStack {
-                Text("Home").font(.largeTitle).fontWeight(.bold).frame(maxWidth: .infinity, alignment: .leading).padding()
+            
+            Text("Home").font(.largeTitle).fontWeight(.bold).frame(maxWidth: .infinity, alignment: .leading).padding(20).offset(x: 10)
                     
-            }
+            
             //Spacer()
             ScrollView(.vertical) {
                 Image("beginner_guide").resizable().frame(width: 320, height: 200)
@@ -25,18 +21,14 @@ struct ContentView: View {
                 Image("about_dmask").resizable().frame(width: 320, height: 200)
                 Image("join_us").resizable().frame(width: 320, height: 200)
                 Spacer()
-            }
+            }.offset(x: -10)
         }
         .padding(.leading)
     }
-    
-    
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct HomeView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
-            
-            
+        HomeView()
     }
 }

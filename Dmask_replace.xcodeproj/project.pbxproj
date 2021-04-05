@@ -3,16 +3,24 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ED8100D525315A7B00A3B017 /* Mask.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8100D425315A7B00A3B017 /* Mask.swift */; };
+		ED8100DA25316B3000A3B017 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8100D925316B3000A3B017 /* AppView.swift */; };
+		ED8100DF2531769F00A3B017 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8100DE2531769F00A3B017 /* HomeView.swift */; };
+		ED81011E2531879F00A3B017 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED81011D2531879F00A3B017 /* Profile.swift */; };
+		ED9383082531B3C700AA73E1 /* PythonKit in Frameworks */ = {isa = PBXBuildFile; productRef = ED9383072531B3C700AA73E1 /* PythonKit */; };
+		ED9383122531D52900AA73E1 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED9383112531D52900AA73E1 /* ExternalAccessory.framework */; };
+		ED93837025321EFE00AA73E1 /* BLEManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED93836F25321EFE00AA73E1 /* BLEManager.swift */; };
 		ED9CB6A5253055AA003EB295 /* Dmask_replaceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9CB6A4253055AA003EB295 /* Dmask_replaceApp.swift */; };
 		ED9CB6A7253055AA003EB295 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9CB6A6253055AA003EB295 /* ContentView.swift */; };
 		ED9CB6A9253055AD003EB295 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED9CB6A8253055AD003EB295 /* Assets.xcassets */; };
 		ED9CB6AC253055AD003EB295 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED9CB6AB253055AD003EB295 /* Preview Assets.xcassets */; };
 		ED9CB6B7253055AE003EB295 /* Dmask_replaceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9CB6B6253055AE003EB295 /* Dmask_replaceTests.swift */; };
 		ED9CB6C2253055AE003EB295 /* Dmask_replaceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9CB6C1253055AE003EB295 /* Dmask_replaceUITests.swift */; };
+		ED9CB6D3253056C0003EB295 /* MediaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9CB6D2253056C0003EB295 /* MediaView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +41,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		ED8100D425315A7B00A3B017 /* Mask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mask.swift; sourceTree = "<group>"; };
+		ED8100D925316B3000A3B017 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		ED8100DE2531769F00A3B017 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		ED81011D2531879F00A3B017 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		ED93830F2531D52800AA73E1 /* Dmask_replace.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Dmask_replace.entitlements; sourceTree = "<group>"; };
+		ED9383112531D52900AA73E1 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		ED93836F25321EFE00AA73E1 /* BLEManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BLEManager.swift; sourceTree = "<group>"; };
 		ED9CB6A1253055AA003EB295 /* Dmask_replace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dmask_replace.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED9CB6A4253055AA003EB295 /* Dmask_replaceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dmask_replaceApp.swift; sourceTree = "<group>"; };
 		ED9CB6A6253055AA003EB295 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +60,7 @@
 		ED9CB6BD253055AE003EB295 /* Dmask_replaceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Dmask_replaceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED9CB6C1253055AE003EB295 /* Dmask_replaceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dmask_replaceUITests.swift; sourceTree = "<group>"; };
 		ED9CB6C3253055AE003EB295 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED9CB6D2253056C0003EB295 /* MediaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediaView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +68,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED9383122531D52900AA73E1 /* ExternalAccessory.framework in Frameworks */,
+				ED9383082531B3C700AA73E1 /* PythonKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +90,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ED9383102531D52900AA73E1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ED9383112531D52900AA73E1 /* ExternalAccessory.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		ED9CB698253055AA003EB295 = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +105,7 @@
 				ED9CB6B5253055AE003EB295 /* Dmask_replaceTests */,
 				ED9CB6C0253055AE003EB295 /* Dmask_replaceUITests */,
 				ED9CB6A2253055AA003EB295 /* Products */,
+				ED9383102531D52900AA73E1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,8 +122,15 @@
 		ED9CB6A3253055AA003EB295 /* Dmask_replace */ = {
 			isa = PBXGroup;
 			children = (
+				ED93830F2531D52800AA73E1 /* Dmask_replace.entitlements */,
+				ED93836F25321EFE00AA73E1 /* BLEManager.swift */,
 				ED9CB6A4253055AA003EB295 /* Dmask_replaceApp.swift */,
 				ED9CB6A6253055AA003EB295 /* ContentView.swift */,
+				ED8100DE2531769F00A3B017 /* HomeView.swift */,
+				ED8100D925316B3000A3B017 /* AppView.swift */,
+				ED8100D425315A7B00A3B017 /* Mask.swift */,
+				ED81011D2531879F00A3B017 /* Profile.swift */,
+				ED9CB6D2253056C0003EB295 /* MediaView.swift */,
 				ED9CB6A8253055AD003EB295 /* Assets.xcassets */,
 				ED9CB6AD253055AD003EB295 /* Info.plist */,
 				ED9CB6AA253055AD003EB295 /* Preview Content */,
@@ -146,6 +180,9 @@
 			dependencies = (
 			);
 			name = Dmask_replace;
+			packageProductDependencies = (
+				ED9383072531B3C700AA73E1 /* PythonKit */,
+			);
 			productName = Dmask_replace;
 			productReference = ED9CB6A1253055AA003EB295 /* Dmask_replace.app */;
 			productType = "com.apple.product-type.application";
@@ -217,6 +254,9 @@
 				Base,
 			);
 			mainGroup = ED9CB698253055AA003EB295;
+			packageReferences = (
+				ED9383062531B3C700AA73E1 /* XCRemoteSwiftPackageReference "PythonKit" */,
+			);
 			productRefGroup = ED9CB6A2253055AA003EB295 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -260,7 +300,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED9CB6A7253055AA003EB295 /* ContentView.swift in Sources */,
+				ED81011E2531879F00A3B017 /* Profile.swift in Sources */,
+				ED8100DF2531769F00A3B017 /* HomeView.swift in Sources */,
+				ED8100DA25316B3000A3B017 /* AppView.swift in Sources */,
 				ED9CB6A5253055AA003EB295 /* Dmask_replaceApp.swift in Sources */,
+				ED9CB6D3253056C0003EB295 /* MediaView.swift in Sources */,
+				ED93837025321EFE00AA73E1 /* BLEManager.swift in Sources */,
+				ED8100D525315A7B00A3B017 /* Mask.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +463,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Dmask_replace/Dmask_replace.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Dmask_replace/Preview Content\"";
 				DEVELOPMENT_TEAM = 4677267GCV;
@@ -429,8 +477,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "ntu.Dmask-replace";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -439,6 +488,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Dmask_replace/Dmask_replace.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Dmask_replace/Preview Content\"";
 				DEVELOPMENT_TEAM = 4677267GCV;
@@ -451,8 +502,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "ntu.Dmask-replace";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -580,6 +632,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		ED9383062531B3C700AA73E1 /* XCRemoteSwiftPackageReference "PythonKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pvieito/PythonKit.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		ED9383072531B3C700AA73E1 /* PythonKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = ED9383062531B3C700AA73E1 /* XCRemoteSwiftPackageReference "PythonKit" */;
+			productName = PythonKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = ED9CB699253055AA003EB295 /* Project object */;
 }

@@ -11,7 +11,7 @@ import SwiftUI
 struct Dmask_replaceApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AppView()
         }
     }
 }
